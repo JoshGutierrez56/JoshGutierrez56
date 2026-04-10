@@ -24,7 +24,7 @@ My research focus is on the full systematic equity stack: **signal construction 
 
 | Repo | What it does |
 |---|---|
-| [risk-parity-sql](https://github.com/JoshGutierrez56/risk-parity-sql) | ERC optimizer (Edward Qian / PanAgora framework). Rolling covariance, NAV, drawdown, and Sharpe entirely in DuckDB SQL window functions. Python only for iterative ERC solve. |
+| [risk-parity-sql](https://github.com/JoshGutierrez56/risk-parity-model) | ERC optimizer (Edward Qian / PanAgora framework). Rolling covariance, NAV, drawdown, and Sharpe entirely in DuckDB SQL window functions. Python only for iterative ERC solve. |
 | [360hf-bl-optimizer](https://github.com/JoshGutierrez56/360hf-bl-optimizer) | Black-Litterman FF6 optimizer for the 360 Huntington Fund. FF6 equilibrium as prior, GK analyst signals as views via P/Q/Ω. Replaces Excel Solver with CVXPY. Brinson-Fachler sector + FF6 factor attribution. |
 
 ### Alternative Data & NLP
