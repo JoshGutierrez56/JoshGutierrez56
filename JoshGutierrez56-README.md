@@ -17,8 +17,8 @@ My research focus is on the full systematic equity stack: **signal construction 
 |---|---|
 | [ETF-Deep-Momentum-Network](https://github.com/JoshGutierrez56/ETF-Deep-Momentum-Network) | PyTorch LSTM trained directly on Sharpe ratio. Walk-forward Sharpe 1.65 across 23 ETFs, 28 test periods (2010–2024). |
 | [equity-factor-model](https://github.com/JoshGutierrez56/equity-factor-model) | Cross-sectional 5-factor model (MOM, LV, SIZE, VAL, QUAL). Spearman IC analysis with Bonferroni correction, CVXPY factor-constrained optimizer, Brinson attribution. |
-| [statistical-arbitrage](https://github.com/JoshGutierrez56/statistical-arbitrage) | Engle-Granger cointegration pair selection, Kalman filter dynamic hedge ratio, OU process parameter estimation, z-score signal with entry/exit/stop logic. |
-| [garch-volatility](https://github.com/JoshGutierrez56/garch-volatility) | GARCH(1,1), GJR-GARCH, EGARCH from-scratch MLE (no `arch` library). HAR-RV with daily/weekly/monthly components. Walk-forward QLIKE evaluation. Kupiec VaR backtest. |
+| [statistical-arbitrage](https://github.com/JoshGutierrez56/statistical-arbitrage-model) | Engle-Granger cointegration pair selection, Kalman filter dynamic hedge ratio, OU process parameter estimation, z-score signal with entry/exit/stop logic. |
+| [garch-volatility](https://github.com/JoshGutierrez56/garch-volatility-model) | GARCH(1,1), GJR-GARCH, EGARCH from-scratch MLE (no `arch` library). HAR-RV with daily/weekly/monthly components. Walk-forward QLIKE evaluation. Kupiec VaR backtest. |
 
 ### Portfolio Construction & Attribution
 
