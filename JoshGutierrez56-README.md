@@ -3,7 +3,7 @@
 **MS Finance / MBA Candidate, Northeastern University · Boston**  
 Quantitative research at the intersection of systematic equity, factor investing, and alternative data.
 
-Currently a student portfolio manager at the [360 Huntington Fund](https://360hf.org) — a student-managed long-equity fund benchmarked against the Russell 3000 — and a quantitative analyst at AEW Capital Management, where I build data-driven valuation and signal models for private real estate portfolios.
+Currently the Head of Equity Research at the [360 Huntington Fund]([https://www.linkedin.com/company/360-huntington-fund/posts/?feedView=all]) — a student-managed long-equity fund benchmarked against the Russell 3000 — and an Associate at AEW Capital Management.
 
 My research focus is on the full systematic equity stack: **signal construction → covariance estimation → portfolio optimization → performance attribution**. All repos below are research-grade implementations, tested against real data where possible and against synthetic data with documented assumptions where not.
 
