@@ -13,6 +13,7 @@ Head of Equity Research, 360 Huntington Fund ($2.1M AUM) | Founder, Options Club
 | [deep-momentum-network](https://github.com/JoshGutierrez56/deep-momentum-network) | LSTM with attention mechanism, Sharpe-ratio loss, 1.65 walk-forward Sharpe | PyTorch |
 | [macro-regime-hmm](https://github.com/JoshGutierrez56/macro-regime-hmm) | Hidden Markov Model built from scratch, 96.1% NBER recession detection accuracy | NumPy, scikit-learn |
 | [360hf-bl-optimizer](https://github.com/JoshGutierrez56/360hf-bl-optimizer) | Black-Litterman + Ledoit-Wolf shrinkage optimizer for student fund | CVXPY, pandas |
+| [risk-parity](https://github.com/JoshGutierrez56/risk-parity) | Risk parity portfolio optimizer with Ledoit-Wolf shrinkage and equal risk contribution | CVXPY, numpy |
 
 ## Factor Replication Results
 
