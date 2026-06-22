@@ -1,7 +1,7 @@
 # Josh Gutierrez
 
 **MS Finance / MBA Candidate — Northeastern University D'Amore-McKim School of Business**
-Head of Equity Research, 360 Huntington Fund ($2.1M AUM) | Founder, Options Club | Boston, MA
+Head of Equity Research, 360 Huntington Fund ($2.1M AUM) | President, Options Club & Commodities Club | Boston, MA
 
 ---
 
