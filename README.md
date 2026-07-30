@@ -5,6 +5,24 @@ Head of Equity Research, 360 Huntington Fund ($2.1M AUM) | President, Options Cl
 
 ---
 
+## Featured Research and Products
+
+### Pure News Intelligence
+
+Evidence-linked analyst workflow for identifying disclosure changes, checking prior context, preserving institutional memory, and forming testable research questions without automatic trade recommendations.
+
+[Live Demo](https://joshgutierrez56.github.io/pure-news-intelligence-demo/) · [Repository](https://github.com/JoshGutierrez56/pure-news-intelligence-demo) · [Research Ideas](https://joshgutierrez56.github.io/pure-news-intelligence-demo/demo/research_ideas.html) · [Universe Coverage Preview](https://joshgutierrez56.github.io/pure-news-intelligence-demo/demo/universe_coverage_preview.html)
+
+**Bounded evidence:** 149 fully validated issuers and 995 evidence-backed disclosure changes; 6,190 issuers indexed for staged coverage. Two of eight Research Idea cases produced publishable hypotheses, six failed safely, and none produced an actionable trade view. Formal human validation remains pending.
+
+### Pure News Research
+
+Reproducible empirical research testing whether filing and news features add incremental return-predictive information, including null results, preregistered gates, and public-safe synthetic fixtures.
+
+[Public Research Repository](https://github.com/JoshGutierrez56/pure-news-research-public) · [Research Findings](https://github.com/JoshGutierrez56/pure-news-research-public/blob/main/RESEARCH_FINDINGS.md) · [Methodology](https://github.com/JoshGutierrez56/pure-news-research-public/blob/main/METHODOLOGY.md)
+
+The negative empirical findings motivated the pivot from automated alpha discovery toward an evidence-linked analyst workflow.
+
 ## Quantitative Research
 
 | Project | Description | Stack |
