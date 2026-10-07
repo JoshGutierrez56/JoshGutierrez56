@@ -1,62 +1,65 @@
 # Josh Gutierrez
 
-**MS Finance / MBA Candidate — Northeastern University D'Amore-McKim School of Business**
-Head of Equity Research, 360 Huntington Fund ($2.1M AUM) | President, Options Club & Commodities Club | Boston, MA
+**Investment research · Portfolio construction · Evidence-linked tools**
 
----
+Northeastern MBA and MS in Finance graduate, with institutional experience at AEW Capital Management, Loomis Sayles, Wellington Management and Prime Buchholz.
 
-## Featured Research and Products
+I focus on questions that matter to an investment decision: what changed, whether a signal adds information, and what a portfolio trade-off is actually worth.
 
-### Pure News Intelligence
+**[Explore my interactive research portfolio](https://joshgutierrez56.github.io)**
 
-Evidence-linked analyst workflow for identifying disclosure changes, checking prior context, preserving institutional memory, and forming testable research questions without automatic trade recommendations.
+## Start here
 
-[Live Demo](https://joshgutierrez56.github.io/pure-news-intelligence-demo/) · [Repository](https://github.com/JoshGutierrez56/pure-news-intelligence-demo) · [Research Ideas](https://joshgutierrez56.github.io/pure-news-intelligence-demo/demo/research_ideas.html) · [Universe Coverage Preview](https://joshgutierrez56.github.io/pure-news-intelligence-demo/demo/universe_coverage_preview.html)
+### The Cost of Customization
 
-**Bounded evidence:** 149 fully validated issuers and 995 evidence-backed disclosure changes; 6,190 issuers indexed for staged coverage. Two of eight Research Idea cases produced publishable hypotheses, six failed safely, and none produced an actionable trade view. Formal human validation remains pending.
+How much tracking risk is worth accepting to accommodate restrictions and reduce trading?
 
-### Pure News Research
+A historical portfolio-implementation study using WRDS/CRSP ETF returns, lagged risk estimates, drifting holdings and modeled transaction costs. In the no-gold case, about 60% less turnover saved only 1.10 basis points annually while adding about 27 basis points of tracking error. The useful finding is the trade-off, not a headline return.
 
-Reproducible empirical research testing whether filing and news features add incremental return-predictive information, including null results, preregistered gates, and public-safe synthetic fixtures.
+[Interactive case study](https://joshgutierrez56.github.io#tradeoffs) · [Methods and limitations](https://joshgutierrez56.github.io/assets/portfolio-case-study.md)
 
-[Public Research Repository](https://github.com/JoshGutierrez56/pure-news-research-public) · [Research Findings](https://github.com/JoshGutierrez56/pure-news-research-public/blob/main/RESEARCH_FINDINGS.md) · [Methodology](https://github.com/JoshGutierrez56/pure-news-research-public/blob/main/METHODOLOGY.md)
+### Pure News: research finding to product pivot
 
-The negative empirical findings motivated the pivot from automated alpha discovery toward an evidence-linked analyst workflow.
+The research did not establish incremental return-predictive value. That negative finding informed an evidence-linked analyst workflow for examining disclosure changes and rejecting unsupported narratives.
 
-## Quantitative Research
+The public prototype contains 995 evidence-backed disclosure changes. In eight bounded research-idea cases, two hypotheses survived, six were rejected and none produced an actionable trade view. It is a frozen prototype; formal human validation remains pending.
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [optlab-research](https://github.com/JoshGutierrez56/optlab-research) | Factor backtesting platform — 9 signals, Russell 3000, FF6 attribution, Brinson decomposition | Python, DuckDB, Polars, CVXPY |
-| [deep-momentum-network](https://github.com/JoshGutierrez56/deep-momentum-network) | LSTM with attention mechanism, Sharpe-ratio loss, 1.65 walk-forward Sharpe | PyTorch |
-| [macro-regime-hmm](https://github.com/JoshGutierrez56/macro-regime-hmm) | Hidden Markov Model built from scratch, 96.1% NBER recession detection accuracy | NumPy, scikit-learn |
-| [360hf-bl-optimizer](https://github.com/JoshGutierrez56/360hf-bl-optimizer) | Black-Litterman + Ledoit-Wolf shrinkage optimizer for student fund | CVXPY, pandas |
-| [risk-parity](https://github.com/JoshGutierrez56/risk-parity) | Risk parity portfolio optimizer with Ledoit-Wolf shrinkage and equal risk contribution | CVXPY, numpy |
+[Explore the demo](https://joshgutierrez56.github.io/pure-news-intelligence-demo/) · [Research findings](https://github.com/JoshGutierrez56/pure-news-research-public/blob/main/RESEARCH_FINDINGS.md) · [Product repository](https://github.com/JoshGutierrez56/pure-news-intelligence-demo)
 
-## Factor Replication Results
+### From Analyst Views to Portfolio Weights
 
-| Factor | Universe | Period | Sharpe L/S | Source |
-|--------|----------|--------|------------|--------|
-| Quality / Gross Profitability | Russell 1000 | 2019–2023 | **0.443** | Novy-Marx (2013) |
-| Momentum (12-2) | Russell 3000 | 2019–2023 | 0.262 | Jegadeesh-Titman (1993) |
-| Momentum (12-2) | Russell 1000 | 2010–2024 | 0.139 gross | Carhart (1997) |
-| BAB / Low Volatility | Russell 1000 | 2019–2023 | -0.371 | Frazzini-Pedersen (2014) |
-| Value / Book-to-Market | Russell 3000 | 2010–2024 | -0.266 | Fama-French (1992) |
+A Black-Litterman research prototype combining analyst views, covariance estimation, constrained optimization and attribution for student-fund research. Implementation evidence is distinct from verified live use or improved investment performance.
 
-GP–Value cross-sectional correlation: −0.257 (p < 0.0001, n=556,200) — quality complements value.
+[Black-Litterman optimizer](https://github.com/JoshGutierrez56/360HF-BL-Optimizer)
 
-## Options Club — Fall 2026
+### Trading Floor
 
-Three-session trading game curriculum modeled on the Citi market-making card game.
-Each session ships with a companion GitHub repo members push to their own profiles.
+A browser-based educational simulator for practicing market-making, options, execution and decision-making with synthetic scenarios. Public UAT preview; not a live-trading system or validated hiring assessment.
 
-| Session | Date | Game | Repo |
-|---------|------|------|------|
-| 1 — Vanilla Market Making | Sept 16 | Quote bid-ask on card sum | [mm-simulator](https://github.com/JoshGutierrez56/mm-simulator) |
-| 2 — Variance Trading | Sept 30 | Quote bid-ask on card variance | [variance-dispersion](https://github.com/JoshGutierrez56/variance-dispersion) |
-| 3 — Options Payoff | Oct 14 | Quote bid-ask on max(sum − K, 0) | [greeks-payoffs](https://github.com/JoshGutierrez56/greeks-payoffs) |
+[Try the simulator](https://joshgutierrez56.github.io/trading-floor-interview-simulator-demo/) · [Repository](https://github.com/JoshGutierrez56/trading-floor-interview-simulator-demo)
+
+## Additional research
+
+- [Equity-Factor-Model](https://github.com/JoshGutierrez56/Equity-Factor-Model): factor research, portfolio construction and modeled implementation diagnostics. Results belong to their documented specifications, not a universal performance claim.
+- [Corporate Niche Dynamics](https://github.com/JoshGutierrez56/corporate-niche-dynamics): measuring competitive crowding in business-model space. Synthetic benchmark only; no real-company investment claim.
+- [Optlab Research](https://github.com/JoshGutierrez56/Optlab-Research): research-platform architecture and portfolio-analysis infrastructure.
+
+## Current research
+
+- **Earnings reactions:** evaluating whether structured AI analysis adds explanatory value under controlled information cutoffs.
+- **Liquidity forecasting:** studying whether volume forecasts improve modeled implementation at a controlled tracking-risk level.
+
+Both are in development. Source and engineering audits are underway; no empirical performance is claimed.
+
+## How I approach the work
+
+- Start with the economic question and a credible comparison.
+- Preserve source provenance and point-in-time information boundaries.
+- Separate historical results, modeled costs, prototypes and synthetic demonstrations.
+- Keep negative findings and limitations visible.
+
+These projects use **AI-assisted research and development**, with documented methods, source provenance and explicit limits on what the evidence supports.
 
 ## Background
 
-7 years institutional asset management — AEW Capital Management, Loomis Sayles,
-Wellington Management, Prime Buchholz. Hamilton College BA.
+MBA and MS in Finance, Northeastern University. BA, Hamilton College. Former Head of Equity Research for Northeastern's student-managed 360 Huntington Fund, January–May 2026.
