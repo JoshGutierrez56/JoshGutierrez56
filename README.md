@@ -8,6 +8,8 @@ I focus on questions that matter to an investment decision: what changed, whethe
 
 **[Explore my interactive research portfolio](https://joshgutierrez56.github.io)**
 
+[LinkedIn — Josh Gutierrez](https://www.linkedin.com/in/josh-gutierrez-55375a142/)
+
 ## Start here
 
 ### The Cost of Customization
